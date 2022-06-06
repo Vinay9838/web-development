@@ -84,7 +84,7 @@
   xhr.send();
 ```
 
-![Home Page](https://github.com/Vinay9838/todos/blob/master/static/assets/images/todoPage.png?raw=true)
+![Home Page](https://github.com/Vinay9838/web-development/blob/master/media/simple-req.png?raw=true)
 
    Let's look at what the browser will send to the server in this case:
 
@@ -134,7 +134,7 @@ xhr.send('<person><name>Arun</name></person>');
 
 ```
 
-![Home Page](https://github.com/Vinay9838/todos/blob/master/static/assets/images/todoPage.png?raw=true)
+![Home Page](https://github.com/Vinay9838/web-development/blob/master/media/preflight_correct.png?raw=true)
 
    Let's look at the full exchange between client and server. The first exchange is the preflight request/response:
 
@@ -224,7 +224,7 @@ function callOtherDomain() {
 
 ```
 
-![Home Page](https://github.com/Vinay9838/todos/blob/master/static/assets/images/todoPage.png?raw=true)
+![Home Page](https://github.com/Vinay9838/web-development/blob/master/media/cred-req-updated.png?raw=true)
 
    Here is a sample exchange between client and server:
 
